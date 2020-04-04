@@ -11,7 +11,7 @@ if(isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()){
   $members->execute(array($_SESSION['id']));
   $member = $members->fetch();
 }else{
-  //ログインしていない
+  //ログインしていない  
   header('Location: login.php');
   exit();
 }
