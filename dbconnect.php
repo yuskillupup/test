@@ -25,7 +25,7 @@ try{
   //catch(エラークラス　エラーのインスタンスを入れる変数)
 */
 }catch(PDOException $e){
-  //tryの処理ができなかった場合の処理：
+  //tryの処理ができなかった場合の処理  ：
   echo 'DB接続エラー：'.$e->getMessage();
 }
 
