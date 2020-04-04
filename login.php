@@ -18,7 +18,7 @@ if((isset($_COOKIE['email']) == true ? $_COOKIE['email'] : '')  != ''){
 }
 
 //修正前
-/*
+/*  
 if((isset($_COOKIE['email']) == true ? $_COOKIE['email'] : '')  != ''){
   $_POST['email'] = $_COOKIE['email'];
   $_POST['password'] = $_COOKIE['password'];
