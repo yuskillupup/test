@@ -1,6 +1,9 @@
-# test
+# 会員機能付きの掲示板
 
+## 特徴
 
-
-## 接続先URL
-http://localhost/startphp/section5/master/index.php
+## 使用言語・ライブラリ
+DB：MySQL<br>
+言語：html/css/php<br>
+フレームワーク：なし<br>
+ライブラリ：なし<br>
